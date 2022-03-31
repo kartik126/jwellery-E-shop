@@ -1,0 +1,53 @@
+
+.item-details {
+
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.price {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#qty {
+  width: 50px;
+  border-radius: 5px;
+}
+
+.purchase-btn {
+  width: 150px;
+  border-style: none;
+  background: yellow;
+  border-radius: 6px;
+  height: 36px;
+  border: 0.1px solid;
+}
+
+.main {
+  background-color: rgb(230, 230, 230);
+  height: 100%;
+}
+
+.dlt-btn {
+  width: 50px;
+}
+
+.price svg {
+  margin-left: 50px;
+}
